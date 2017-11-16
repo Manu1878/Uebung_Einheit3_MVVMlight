@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="88*"/>
+            <RowDefinition Height="19*"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <DataGrid>
+                
+            </DataGrid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Button Content="Delete" Margin="15" VerticalAlignment="Center"></Button>
+        </Grid>
+
     </Grid>
 </Window>
